@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mysql = require('mysql');
 var connection = require('express-myconnection');
-
+var test = require('./test/test.js');
 const sqlite3 = require('sqlite3').verbose();
 var db = require('./sql/db_manage.js');
 
